@@ -1,0 +1,465 @@
+{
+  "users": [
+    {
+      "id": "90008942",
+      "data": [
+        {
+          "employee_name": "Ayyappa Bhusamsetti",
+          "email": "ayyappa.bhusamsetti@hp.com",
+          "password": "iappa@1234",
+          "phone": "9010700253"
+        }
+      ]
+    },
+    {
+      "id": "90008943",
+      "data": [
+        {
+          "employee_name": "Tushar Lamba",
+          "email": "tshar.lamba@hp.com",
+          "password": "iappa@12345",
+          "phone": "9010700243"
+        }
+      ]
+    },
+    {
+      "id": "90008945",
+      "data": [
+        {
+          "employee_name": "Sai G",
+          "email": "sai.gannamani@hp.com",
+          "password": "iappa#123",
+          "phone": "7207287891"
+        }
+      ]
+    },
+    {
+      "id": "90008947",
+      "data": [
+        {
+          "employee_name": "Mohan",
+          "email": "mohan.nanduri@hp.com",
+          "password": "iappa@1234",
+          "phone": "8008829425"
+        }
+      ]
+    }
+  ],
+  "outlets": [
+    {
+      "data": [
+        {
+          "outlet_id": "SWH01",
+          "outlet_name": "ABC foods",
+          "outlet_location": "Left Wing",
+          "outlet_contact": "9848022338",
+          "outlet_rating": "3.8"
+        },
+        {
+          "outlet_id": "SWH02",
+          "outlet_name": "KKR foods",
+          "outlet_location": "Left Wing",
+          "outlet_contact": "9844545338",
+          "outlet_rating": "3.6"
+        },
+        {
+          "outlet_id": "SWH04",
+          "outlet_name": "Hello foods",
+          "outlet_location": "Right Wing",
+          "outlet_contact": "9848076238",
+          "outlet_rating": "3.8"
+        },
+        {
+          "outlet_id": "SWH04",
+          "outlet_name": "XYZ foods",
+          "outlet_location": "Right Wing",
+          "outlet_contact": "9848025368",
+          "outlet_rating": "4.6"
+        }
+      ]
+    }
+  ],
+  "outletMenu": [
+    {
+      "id": "SWH01",
+      "data": [
+        {
+          "name": "ABC Foods",
+          "menu_items": [
+            {
+              "item_id": "ABC001",
+              "item_name": "South Meals"
+            },
+            {
+              "item_id": "ABC002",
+              "item_name": "North Meals"
+            },
+            {
+              "item_id": "ABC003",
+              "item_name": "Biryani"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SWH02",
+      "data": [
+        {
+          "name": "KKR Foods",
+          "menu_items": [
+            {
+              "item_id": "KKR001",
+              "item_name": "South Meals"
+            },
+            {
+              "item_id": "KKR002",
+              "item_name": "North Meals"
+            },
+            {
+              "item_id": "KKR003",
+              "item_name": "Biryani"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SWH03",
+      "data": [
+        {
+          "name": "Hello Foods",
+          "menu_items": [
+            {
+              "item_id": "HEL001",
+              "item_name": "South Meals"
+            },
+            {
+              "item_id": "HEL002",
+              "item_name": "North Meals"
+            },
+            {
+              "item_id": "HEL003",
+              "item_name": "Biryani"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SWH04",
+      "data": [
+        {
+          "name": "XYZ Foods",
+          "menu_items": [
+            {
+              "item_id": "XYZ001",
+              "item_name": "South Meals"
+            },
+            {
+              "item_id": "XYZ002",
+              "item_name": "North Meals"
+            },
+            {
+              "item_id": "XYZ003",
+              "item_name": "Biryani"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "itemsAll": [
+    {
+      "id": "ABC001",
+      "data": [
+        {
+          "name": "South Meals",
+          "cost": "40",
+          "Veg": "yes",
+          "avilable": "yes",
+          "cooking_time": "10"
+        }
+      ]
+    },
+    {
+      "id": "ABC002",
+      "data": [
+        {
+          "name": "North Meals",
+          "cost": "25",
+          "Veg": "yes",
+          "avilable": "yes",
+          "cooking_time": "12"
+        }
+      ]
+    },
+    {
+      "id": "ABC003",
+      "data": [
+        {
+          "name": "Biryani",
+          "cost": "70",
+          "Veg": "yes",
+          "avilable": "yes",
+          "cooking_time": "15"
+        }
+      ]
+    },
+    {
+      "id": "KKR001",
+      "data": [
+        {
+          "name": "South Meals",
+          "cost": "40",
+          "Veg": "yes",
+          "avilable": "yes",
+          "cooking_time": "10"
+        }
+      ]
+    },
+    {
+      "id": "KKR002",
+      "data": [
+        {
+          "name": "North Meals",
+          "cost": "25",
+          "Veg": "yes",
+          "avilable": "yes",
+          "cooking_time": "12"
+        }
+      ]
+    },
+    {
+      "id": "KKR003",
+      "data": [
+        {
+          "name": "Biryani",
+          "cost": "70",
+          "Veg": "yes",
+          "avilable": "yes",
+          "cooking_time": "15"
+        }
+      ]
+    },
+    {
+      "id": "HEL001",
+      "data": [
+        {
+          "name": "South Meals",
+          "cost": "40",
+          "Veg": "yes",
+          "avilable": "yes",
+          "cooking_time": "10"
+        }
+      ]
+    },
+    {
+      "id": "HEL002",
+      "data": [
+        {
+          "name": "North Meals",
+          "cost": "25",
+          "Veg": "yes",
+          "avilable": "yes",
+          "cooking_time": "12"
+        }
+      ]
+    },
+    {
+      "id": "HEL003",
+      "data": [
+        {
+          "name": "Biryani",
+          "cost": "70",
+          "Veg": "yes",
+          "avilable": "yes",
+          "cooking_time": "15"
+        }
+      ]
+    },
+    {
+      "id": "KKR003",
+      "data": [
+        {
+          "name": "Biryani",
+          "cost": "70",
+          "Veg": "yes",
+          "avilable": "yes",
+          "cooking_time": "15"
+        }
+      ]
+    },
+    {
+      "id": "XYZ001",
+      "data": [
+        {
+          "name": "South Meals",
+          "cost": "40",
+          "Veg": "yes",
+          "avilable": "yes",
+          "cooking_time": "10"
+        }
+      ]
+    },
+    {
+      "id": "XYZ002",
+      "data": [
+        {
+          "name": "North Meals",
+          "cost": "25",
+          "Veg": "yes",
+          "avilable": "yes",
+          "cooking_time": "12"
+        }
+      ]
+    },
+    {
+      "id": "XYZ003",
+      "data": [
+        {
+          "name": "Biryani",
+          "cost": "70",
+          "Veg": "yes",
+          "avilable": "yes",
+          "cooking_time": "15"
+        }
+      ]
+    }
+  ],
+  "cartItems": [
+    {
+      "id": "90008942",
+      "data": [
+        {
+          "no_of_items": "3",
+          "total_cart_value": "150",
+          "outlet_id": "SWH01",
+          "cart_items": [
+            {
+              "item_id": "ABC001",
+              "ordered_quantity": "2"
+            },
+            {
+              "item_id": "ABC003",
+              "ordered_quantity": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "90008943",
+      "data": [
+        {
+          "no_of_items": "1",
+          "total_cart_value": "140",
+          "outlet_id": "SWH02",
+          "cart_items": [
+            {
+              "item_id": "KKR003",
+              "ordered_quantity": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "90008943",
+      "data": [
+        {
+          "no_of_items": "1",
+          "total_cart_value": "40",
+          "outlet_id": "SWH03",
+          "cart_items": [
+            {
+              "item_id": "HEL001",
+              "ordered_quantity": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "userOrders": [
+    {
+      "id": "90008942",
+      "data": [
+        {
+          "order_id": "ZSE001",
+          "order_date": "28-01-2019",
+          "order_status": "Delivered"
+        },
+        {
+          "order_id": "ZSE002",
+          "order_date": "28-03-2019",
+          "order_status": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "90008943",
+      "data": [
+        {
+          "order_id": "ZS001",
+          "order_date": "28-01-2019",
+          "order_status": "Delivered"
+        }
+      ]
+    }
+  ],
+  "ordersAll": [
+    {
+      "id": "ZSE001",
+      "data": [
+        {
+          "no_of_items": "1",
+          "total_cart_value": "40",
+          "outlet_id": "SWH03",
+          "cart_items": [
+            {
+              "item_id": "HEL001",
+              "ordered_quantity": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZSE002",
+      "data": [
+        {
+          "no_of_items": "1",
+          "total_cart_value": "140",
+          "outlet_id": "SWH03",
+          "cart_items": [
+            {
+              "item_id": "HEL003",
+              "ordered_quantity": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZS001",
+      "data": [
+        {
+          "no_of_items": "2",
+          "total_cart_value": "150",
+          "outlet_id": "SWH03",
+          "cart_items": [
+            {
+              "item_id": "HEL003",
+              "ordered_quantity": "1"
+            },
+            {
+              "item_id": "HEL001",
+              "ordered_quantity": "2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
